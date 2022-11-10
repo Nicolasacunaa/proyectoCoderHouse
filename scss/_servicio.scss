@@ -1,0 +1,47 @@
+body {
+  margin-top: 100px;
+}
+.descripcion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+
+  .textos-descripcion {
+    width: 65%;
+  }
+
+  h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 2rem;
+  }
+
+  p {
+    color: black;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+}
+.tarjeta {
+  margin: 2rem 2rem;
+  margin-top: 10px;
+}
+
+.card-completa {
+  margin: 2rem 2rem;
+}
+
+.footer {
+  background-color: rgba($color: #000000, $alpha: 0.3);
+
+  .copy {
+    background-color: rgba($color: #000000, $alpha: 0.3);
+  }
+}
+
+.mapa {
+  padding-bottom: 1rem;
+}

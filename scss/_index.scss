@@ -1,0 +1,108 @@
+.contenido {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.455)),
+    url(../img/mendoza.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contenido__titulos {
+  color: white;
+  font-family: $primary-font-family;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.455);
+
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  .boton {
+    margin-top: 3rem;
+    text-shadow: none;
+  }
+  .boton2 {
+    margin-top: 3rem;
+    text-shadow: none;
+  }
+}
+
+.items-servicio {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  background-color: $primary-backgraund-color;
+  color: white;
+  height: 20vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: $primary-font-family;
+}
+
+.text-entrega {
+  background-color: $primary-backgraund-color;
+
+  height: 6.25rem;
+  font-family: $primary-font-family;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+
+  h2:hover {
+    color: #ffc107;
+  }
+}
+
+.marcas_imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  img {
+    margin-right: 50px;
+  }
+}
+
+.marcas_titulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+@media (max-width: 420px) {
+  .contenido__titulos h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    display: none;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+  }
+  .boton2 {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .boton {
+    margin-top: 3rem;
+    text-shadow: none;
+    display: none;
+  }
+}

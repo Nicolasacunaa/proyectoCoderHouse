@@ -1,0 +1,270 @@
+.logo img {
+  width: 80px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.estilos {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+.estilos .telefono {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.enlace-navbar li a {
+  margin-right: 3rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 50px;
+  }
+  .telefono {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenido {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.455)), url(../img/mendoza.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contenido__titulos {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.455);
+}
+.contenido__titulos h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+.contenido__titulos h2 {
+  text-align: center;
+}
+.contenido__titulos .boton {
+  margin-top: 3rem;
+  text-shadow: none;
+}
+.contenido__titulos .boton2 {
+  margin-top: 3rem;
+  text-shadow: none;
+}
+
+.items-servicio {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  background-color: #1d809f;
+  color: white;
+  height: 20vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-entrega {
+  background-color: #1d809f;
+  height: 6.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.text-entrega h2:hover {
+  color: #ffc107;
+}
+
+.marcas_imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.marcas_imagen img {
+  margin-right: 50px;
+}
+
+.marcas_titulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+@media (max-width: 420px) {
+  .contenido__titulos h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    display: none;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+  }
+  .boton2 {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .boton {
+    margin-top: 3rem;
+    text-shadow: none;
+    display: none;
+  }
+}
+.conteiner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #1d809f;
+}
+.conteiner .formulario {
+  margin-left: 0rem;
+}
+.conteiner .formulario .texto-contacto {
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 0.5rem;
+}
+
+.horarios {
+  background-color: white;
+  width: 100vw;
+  height: 40%;
+}
+.horarios .card-sucursales {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.45);
+}
+
+.footer {
+  width: 100vw;
+  height: 50vh;
+}
+.footer .conteiner_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .conteiner_footer img {
+  width: 150px;
+  margin-left: 2rem;
+}
+.footer .conteiner_footer .sucursales {
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.footer .conteiner_footer .sucursal {
+  margin-left: 3rem;
+}
+
+@media (max-width: 420px) {
+  .maps {
+    display: none;
+  }
+}
+body {
+  background-color: #1d809f;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  height: 100vh;
+}
+.contenedor img {
+  width: 600px;
+  margin: 3rem;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.45);
+}
+.contenedor .texto_nosotros {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  text-align: center;
+}
+.contenedor .texto_nosotros p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+body {
+  margin-top: 100px;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
+.descripcion .textos-descripcion {
+  width: 65%;
+}
+.descripcion h2 {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 2rem;
+}
+.descripcion p {
+  color: black;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.tarjeta {
+  margin: 2rem 2rem;
+  margin-top: 10px;
+}
+
+.card-completa {
+  margin: 2rem 2rem;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.footer .copy {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mapa {
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
