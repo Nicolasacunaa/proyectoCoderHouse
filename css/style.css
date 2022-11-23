@@ -201,26 +201,34 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 95%;
-  height: 100vh;
+  font-size: 1.3rem;
+  padding: 3rem;
 }
 .contenedor img {
   width: 600px;
-  margin: 3rem;
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.45);
 }
 .contenedor .texto_nosotros {
   color: white;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.8;
-  text-align: center;
-}
-.contenedor .texto_nosotros p {
-  margin-top: 10px;
-  font-size: 15px;
 }
 
+@media (max-width: 420px) {
+  .contenedor {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    padding: 1rem;
+  }
+  .contenedor img {
+    width: 250px;
+    padding: 5px;
+  }
+  .contenedor .texto_nosotros {
+    padding-top: 1rem;
+    font-size: 14px;
+  }
+}
 body {
   margin-top: 100px;
 }
@@ -265,6 +273,16 @@ body {
 
 .mapa {
   padding-bottom: 1rem;
+}
+
+.card-servicio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.card-servicio .servicio-card {
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

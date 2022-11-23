@@ -45,3 +45,14 @@ body {
 .mapa {
   padding-bottom: 1rem;
 }
+
+.card-servicio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  .servicio-card {
+    width: 100px;
+  }
+}
